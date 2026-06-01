@@ -1,0 +1,49 @@
+body{
+  background:linear-gradient(to left , rgb(244, 124, 144),
+  rgb(210, 146, 146) );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 200px;
+}
+.main{
+  width:70%;
+  max-width: 400px;
+  display: flex;
+   justify-content: center;
+   align-items: center;
+   gap:14px;
+  flex-direction: column;
+    box-shadow: 0px 4px 15px rgb(33, 32, 32);
+  height: 350px;
+
+}
+.inps{
+  width:90%;
+  max-width: 600px;
+  display: flex;
+  height: auto;
+ display: flex;
+ gap:24px;
+ height: 28px;
+font-size: larger;
+}
+
+@media(max-width:789){
+    .main-content {
+    width: 85%;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+}
+@media(max-width:456){
+    .main-content {
+    width: 85%;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+}
